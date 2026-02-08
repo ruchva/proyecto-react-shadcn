@@ -4,7 +4,7 @@ const [, , p2] = characterNames;
 
 console.log({ p2 });
 
-const returnArrayFn = () => {
+export const returnArrayFn = () => {
   return ["abc", 123] as const;
 };
 
@@ -12,7 +12,7 @@ const [letters, numbers] = returnArrayFn();
 
 console.log(letters, numbers);
 
-const useState = (value: string) => {
+export const useState = (value: string) => {
   return [value, (newValue: string) => console.log(newValue)] as const;
 };
 
