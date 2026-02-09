@@ -75,7 +75,7 @@ export default defineConfig([
 Comandos para crear el proyecto, podrian no funcionar del todo
 
 ```bash
-· crear proyecto react-shadcn
+# crear proyecto react-shadcn
 
 npm create vite@latest proyecto-react-shadcn -- --template react-ts
 cd proyecto-react-shadcn
