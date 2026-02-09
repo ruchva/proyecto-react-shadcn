@@ -72,11 +72,13 @@ export default defineConfig([
 ])
 ```
 
-* comandos para crear el proyecto, podrian no funcionar
+Comandos para crear el proyecto, podrian no funcionar del todo
 
 ```bash
-npm create vite@latest mi-proyecto-react-shadcn -- --template react-ts
-cd mi-proyecto-react-shadcn
+· crear proyecto react-shadcn
+
+npm create vite@latest proyecto-react-shadcn -- --template react-ts
+cd proyecto-react-shadcn
 npm install react-hook-form zod @hookform/resolvers
 npx shadcn@latest add button card input label form
 npm install
